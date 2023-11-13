@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', serif;
+}
+
+body{
+    background: linear-gradient(0.5turn, #190019, #854F6C);
+    color: #F5D7DB;
+}
+
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 25px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size:25px;
+    color:#F5D7DB;
+    text-decoration: none;
+    font-weight:600;
+}
+
+.navbar a{
+    font-size:18px;
+    color:#F5D7DB;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left:35px;
+    transition: .3s;
+}
+
+.navbar a:hover, .navbar a.boutonAccueil{
+    color:#C38EB4;
+}
+.accueil {
+    font-size:25px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    line-height: 1.5;
+}
+.accueil-content {
+    max-width: 600px;
+}
+
+.accueil-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.accueil-content h3  {
+    font-size: 35px;
+    font-weight: 700;
+    color:#BD83B8;
+}
+
+.accueil-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.accueil-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+ .accueil-sci {
+     position: absolute;
+     bottom: 100px;
+     width: 170px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+.accueil-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border:2px solid #C38EB4;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #C38EB4;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.accueil-sci a::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #C38EB4;
+    z-index: -1;
+    transition: .5s;
+}
+
+.accueil-sci a:hover::before{
+    width: 100%;
+}
+
+.accueil-sci a:hover{
+    color: #2B124C;
+}
+
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background-color: #C38EB4;
+    border :2px solid #2B124C;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #2B124C;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+
+.btn-box a:nth-child(2){
+    background-color: #2B124C;
+    color: #C38EB4;
+}
+
+.btn-box a:nth-child(2):hover{
+    color: #2B124C;
+}
+.btn-box a:nth-child(1):hover{
+    color: #C38EB4;
+}
+
+.btn-box a:nth-child(2)::before{
+    background-color: #C38EB4;
+}
+
+.btn-box a::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color:#2B124C;
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn-box a:hover:before{
+    width: 100%;
+}

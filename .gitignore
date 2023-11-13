@@ -1,0 +1,29 @@
+# Fichiers générés automatiquement
+*.log
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
+
+# Dossiers générés automatiquement
+node_modules/
+dist/
+build/
+.cache/
+
+# Fichiers spécifiques à l'environnement de développement
+.env
+
+# Dossiers spécifiques à l'environnement de développement
+.idea/
+.vscode/
+
+# Fichiers de sauvegarde
+*~
+
+# Fichiers de configuration
+*.config
+
+# Dépendances locales (si vous utilisez npm ou yarn)
+package-lock.json
+yarn.lock
