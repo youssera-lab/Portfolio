@@ -219,6 +219,12 @@ section {
 #contact-btn{
     width: 25rem;
 }
+
+.btn-box{
+    display: flex;
+    justify-content: space-between;
+}
+
 .btn-box a{
     position: relative;
     display: inline-flex;
