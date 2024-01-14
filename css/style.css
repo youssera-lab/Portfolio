@@ -189,9 +189,6 @@ section {
     transition: .5s;
 }
 
-#contact-btn{
-    width: 50px;
-}
 .accueil-sci a::before{
     content:'';
     position: absolute;
