@@ -30,6 +30,7 @@ body {
     color: var(--text-color);
 }
 
+
 .header{
     position:sticky;
     top:0;
@@ -127,6 +128,7 @@ section {
     background-position: center center;
     background-attachment: fixed;
 }
+
 .accueil-content {
     max-width: 60rem;
 }
@@ -221,7 +223,8 @@ section {
 }
 
 .btn-box{
-    margin-right: 5rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .btn-box a{
@@ -330,6 +333,11 @@ span {
     color : var(--main-color);
 }
 
+.composantes-essentielles{
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    padding-left: 10rem;
+}
 .about-content{
     display: flex;
     flex-direction: row;
@@ -507,8 +515,8 @@ span {
 .projects-box {
     position: relative;
     flex:0 0 auto;
-    width: 50rem;
-    height: 50rem;
+    width: 30rem;
+    height: 40rem;
     border-radius: 16px;
     border : .2rem solid var(--main-color);
     background-color: var(--second-bg-color);
@@ -817,7 +825,71 @@ span {
     box-shadow: var(--second-bg-color) 0px 0px 9px 0px;
 }
 
-/*---------------------RESPONSIVE-------------------*/
+/*---------------------PROJET KIKARASEL-------------------*/
+
+.but-text {
+    max-width: 160rem;
+    font-size: 1.6rem;
+    margin: 4rem;
+    padding : 0 6rem ;
+}
+
+.composantes-essentielles-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+    width: 100%;
+}
+
+.composantes-essentielles-content img {
+    max-width : 50%;
+    height: auto;
+    border-radius: 16px;
+    margin-bottom: 4rem;
+}
+.composantes-essentielles-img-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+}
+
+.img-content-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 0 5rem;
+}
+
+#img-content-row{
+    display: flex;
+    flex-direction: row;
+}
+.portfolio-apprentissage-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.portfolio-apprentissage-content a{
+    font-size: 4rem;
+    text-decoration: none;
+    color: #ededed;
+    background-color: #081b29;
+    border-radius: 16px;
+    padding:5rem;
+}
+
+.portfolio-apprentissage-content a:hover{
+    color: var(--main-color);
+    transition: 0.5s;
+}
 
 
-
+.portfolio-apprentissage {
+    max-height: 100vh;
+}
