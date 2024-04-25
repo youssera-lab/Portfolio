@@ -759,12 +759,16 @@ span {
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span{
-    width: 65%;
+    width: 75%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span{
+    width: 75%;
 }
 
 .project-description-content {
     min-height: auto;
-    width: 100vh;
+    width: 123vh;
     padding : .2rem;
     line-height: 3rem;
 }
@@ -795,6 +799,9 @@ span {
     width: 100%;
 }
 
+.project-description-img p {
+    font-size: 2rem;
+}
 .project-description-img img {
     margin-bottom: 4rem;
     max-width: 100%;
@@ -855,6 +862,15 @@ span {
     justify-content: center;
     align-items: center;
     width:90%;
+}
+p a {
+    text-decoration: none;
+    color: #ededed;
+}
+
+p a:hover{
+    color: var(--main-color);
+    transition: .5s;
 }
 
 .img-content-col {
