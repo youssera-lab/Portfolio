@@ -864,12 +864,13 @@ span {
     align-items: center;
     width:90%;
 }
-p a {
+p a, .composantes-essentielles-img-content a {
     text-decoration: none;
     color: #ededed;
+    font-size: 2rem;
 }
 
-p a:hover{
+p a:hover, .composantes-essentielles-img-content a{
     color: var(--main-color);
     transition: .5s;
 }
