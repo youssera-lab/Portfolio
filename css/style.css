@@ -471,7 +471,7 @@ span {
     align-items: center;
     flex-direction: column;
     min-height: auto;
-    padding-bottom: 5rem;
+    padding: 2rem 5%;
 }
 
 .projects h3 {
@@ -510,14 +510,21 @@ span {
     flex-wrap: wrap;
     justify-content: center;
     gap:5rem;
-    width: 100%;
+    max-width: 1300px;
+    min-width: 1000px;
     height: auto;
+}
+
+#perso{
+    display: flex;
+    flex-direction: row;
+
 }
 
 .projects-box {
     position: relative;
     flex:0 0 auto;
-    width: 30rem;
+    width: 300px;
     height: 40rem;
     border-radius: 16px;
     border : .2rem solid var(--main-color);
